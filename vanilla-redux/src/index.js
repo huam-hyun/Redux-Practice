@@ -4,7 +4,7 @@ const add = document.getElementById('add');
 const minus = document.getElementById('minus');
 const number = document.querySelector('span');
 
-// dispatch에 쓸 문자열은 사람인지라 오타가 날 수 있어서 const로 선언해 두면 컴파일러가 정의되지 않았다고 알려준다
+// dispatch에 쓸 문자열은 사람인지라 오타가 날 수 있어서 const로 선언해 두면 오타날시 컴파일러가 정의되지 않았다고 알려준다
 // 하지만 정의해두지 않으면 오타나면 모름 안알려줘서
 const ADD = 'ADD';
 const MINUS = 'MINUS';
